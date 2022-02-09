@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body {
+    margin: 0;
+    padding: 50px 70px;
+}
+
+#contenido_color{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: verdana;
+    font-size: 16px;
+    background: #2E6B9C;
+    height: 430px;
+    border: 3px solid rgb(31, 29, 29);
+    box-shadow: 0px 0px 10px 5px rgba(24, 23, 23, 0.63);
+    margin-bottom: 30px;
+}
+
+.p {
+    font-family: 'Redressed', cursive;
+    font-size: 60px;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 60px;
+    width: 20%;
+    font-family: verdana;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(55, 111, 214);
+    cursor: pointer;
+    transition: all .5s ease;
+    font-weight: 600;
+    box-shadow: 0px 0px 12px 5px rgba(24, 23, 23, 0.63);
+}
+
+button:hover {
+    background-color: rgb(113, 140, 190);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
